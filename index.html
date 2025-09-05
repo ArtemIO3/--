@@ -7,7 +7,32 @@
 </head>
 <body>
     <script>
-        str="main.js"
+        let name = prompt("Enter your name:");
+        alert(name)
+        let year = prompt("Enter your birth year:");
+        const yearNow = 2025;
+        let age = yearNow - year;
+        alert(age)
+        let length = prompt("Enter the length of the side of a square:");
+        let perimeter = length * 4;
+        alert(perimeter);
+        let radius = prompt("Enter the radius of a circle:");
+        const pi = 3.14;
+        let circle = pi * radius * radius;
+        alert(circle);
+        let distance = prompt("Enter the distance between two cities in km:");
+        let time = prompt("Enter the time in hours you want to cover this distance:");
+        let speed = distance / time;
+        alert(speed);
+        let usd = prompt("Enter USD:");
+        const exchange =0.85;
+        let eur = usd * exchange;
+        alert(eur + " Euro");
+        let memory = prompt("Enter size of flash in GB:");
+        const GB = 1024;
+        let b = memory * GB; 
+        let a = b / 820;
+        alert(parseInt(a) + " how many files fit in how many GB of flash drive");
     </script>
 </body>
 </html>
